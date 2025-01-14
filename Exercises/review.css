@@ -6,3 +6,29 @@ body {
 .brand > span{
     font-size: 4em;
 }
+
+header{
+    background-color: red;
+}
+img{
+    display: block;
+}
+
+.brand{
+    color: white;
+    display: grid;
+    grid-template-columns: 60px auto;
+    max-width: 500px;
+    align-items: center;
+}
+.brand > h1 {
+    margin-left: .5em;
+}
+
+.post-summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
