@@ -1,0 +1,58 @@
+.content{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+.title{
+    text-align: center;
+    letter-spacing: 0.25em;
+    border-bottom: 1px solid #d0d0d0;
+}
+.dark{
+    color:white;
+    background-color: black;
+}
+.dark h2{
+    color: #A0D4ED;
+}
+.does-list{
+
+}
+.summary{
+    padding-right: 7%;
+}
+.logo{
+
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+h2{
+    color: #006EB6;
+    font-size: 1em;
+    margin-bottom: 1%;
+
+}
+
+p{
+    font-size: 1.2em;
+}
+li{
+    font-size: 1.2em;
+    padding-bottom: 4%;
+}
+.logo{
+    width: 12%;
+    height: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    align-items: end;
+}
+footer{
+
+}
