@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 2em;
+    font-family: Lora, Impact, serif;
+    color:#473144;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+h3{
+    color: #AF1B3F;
+    font-size: 2em;
+    font-family: Lora, Impact, serif;
+}
+.menu{
+    display: grid;
+    color:#AF1B3F;
+    grid-template-columns: 90px 90px 90px;
+    font-weight: bold;
+    justify-content: end;
+    justify-items: center;
+    text-align: center;
+    border-top: 2px solid #EFC69B;
+    border-bottom: 2px solid #EFC69B;
+    list-style: none;
+    margin-right: 20px;
+    padding-right: 50px;
+    font-size: 1.2em;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+.summary{
+    font-size: 1.2em;
+}
+li{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
