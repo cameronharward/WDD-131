@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link type="text/css" rel="stylesheet" href="recipebook.css">
+    <script src="recipebook.js" defer></script>
+    <meta property="og:title" content="Page Title">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Page Description">
+    <meta property="og:image" content="URL to an image">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<header>
+    <img class="logo" src="images/recipe-book.png" alt="logo">
+    <h2 id="title">RecipeBook</h2>
+</header>
+<body>
+    <div class="search">
+        <input type="text" id="search_bar" placeholder="Find a recipe">
+        <img class="search_image" src="images/search.svg" alt="search symbol">
+    </div>
+    <div class="content">
+    <figure class="recipe">
+        <img class="recipe_image" src="images/sweet-potato-waffle-md.jpg" alt="sweet potato waffle img">
+        <figcaption>
+            <ul class="recipe_tags">
+                <li>Waffles</li>
+                <li>Sweet Potato</li>
+                <li>Side</li>
+            </ul>
+            <h2 class="recipe_title"><a class="recipe_title" href="#">Potato Waffles</a></h2>
+            <p class="recipe_rating">
+                <span
+                class="rating"
+                role="img"
+                aria-label="Rating: 4 out of 5 stars"
+            >
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+            </p>
+            <p class="recipe_description">Savory waffles made with Sweet potato with a hint of Ginger</p>
+        </figcaption>
+    </figure>
+</div>
+</body>
+<footer>
+    
+    <div class="social">
+        <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+        <a href="#"><img id="icons" src="images/instagram_icon.svg" alt="instagram icon"></a>
+        <a href="#"><img id="icons" src="images/youtube_icon.svg" alt="youtube icon"></a>
+        <a href="#"><img id="icons" src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+    </div>
+    <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+</footer>
+
+</html>
