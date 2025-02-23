@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link type="text/css" rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 <header>
-    <img src="media/Adventure.png" alt="logo">
+    <img id="logo" src="media/Adventure.png" alt="logo">
 </header>
 <body>
     <div class="summary">
-        <p>Text that will summarize the game</p>
-        <p>A second paragraph of text that will help summarize the game more.</p>
+        <div class="text">
+            <p>Welcome to Adventure!</p>
+            <p>Adventure is a Choose Your Own Adventure Game where you click buttons to make choices. Different rooms connect to each other and change the gamestate or inventory based on what choices you make.</p>
+            <p>Now go! Adventure awaits!</p>
+        </div>
     </div>
     <div class="playbutton">
-        <button>PLAY GAME</button>
+        <button id="playbutton">PLAY GAME</button>
     </div>
 </body>
 </html>
